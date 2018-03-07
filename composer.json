@@ -1,0 +1,30 @@
+{
+    "name": "kkse/wqframework",
+    "description": "微擎框架系统整合",
+    "keywords": ["library"],
+    "homepage": "https://github.com/kkse/phpwqframework",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "kkse",
+            "email": "214466734@qq.com"
+        }
+    ],
+    "require": {
+        "kkse/quick": "~1.0.0",
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {"kkse\\wqframework\\": "src/"},
+        "files": [
+            "files/pdo.php",
+            "files/cache.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
